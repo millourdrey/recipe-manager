@@ -6,6 +6,7 @@ export default function RecipeCard({ recipe, onToggleFavorite, onDelete }) {
       <div className="card-body">
         <div className="flex justify-between items-start">
           {/* TODO: show the recipe title as an <h2 className="card-title"> */}
+        <h2 className="card-title">{recipe.title}</h2>
 
           {/* TODO: favorite toggle button.
               - Shows ★ when favorite is true, ☆ when false.

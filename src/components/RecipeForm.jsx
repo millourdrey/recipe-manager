@@ -8,8 +8,15 @@ export default function RecipeForm({ onAdd }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     // TODO: reject if title is empty (after .trim()).
+    if (!title.trim()) {
+      return;
+    }
     // TODO: call onAdd({ title, category, time: Number(time) || 0 }).
+    onAdd({ title, category, time: Number(time) || 0 });
     // TODO: clear the form fields.
+    setTitle("");
+    setCategory("");
+    setTime("");
   };
 
   return (
