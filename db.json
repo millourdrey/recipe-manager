@@ -1,0 +1,26 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "mealId": "52874",
+      "title": "Beef and Oyster pie",
+      "category": "Beef",
+      "thumb": "https://www.themealdb.com/images/media/meals/wrssvt1511556563.jpg",
+      "ingredients": ["beef", "oysters", "potatoes", "onion"],
+      "time": 45,
+      "notes": "Classic pub-style comfort food.",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "mealId": "52959",
+      "title": "Baked salmon with fennel & tomatoes",
+      "category": "Seafood",
+      "thumb": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+      "ingredients": ["salmon", "fennel", "tomato", "lemon"],
+      "time": 35,
+      "notes": "Fresh and easy for weeknights.",
+      "favorite": false
+    }
+  ]
+}
